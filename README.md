@@ -1,4 +1,78 @@
-# End to end Text-Summarizer-Project
+# End-to-End Text Summarizer Project
+This repository contains an end-to-end implementation of a text summarization project, showcasing the entire pipeline from setup to deployment on AWS. The project is designed to provide a comprehensive understanding of building and deploying a machine learning model with proper software engineering practices.
+
+![text](https://github.com/ganeshmore99/Text-Summarization-NLP-Project/assets/85934803/37ca2597-1f30-4147-9d61-3da758742c30)
+
+
+## Table of Contents
+#### Introduction
+#### Repository Setup
+#### Project Template Creation
+#### Project Setup and Requirements Installation
+#### Logging, Utils, and Exceptions Modules
+#### Components Modular Code Implementation
+#### Training Pipeline
+#### MLOps Tools Implementation
+#### Prediction Pipeline and User App Creation
+#### Docker
+#### GitHub Actions
+#### CI/CD Deployment on AWS Cloud
+
+## Introduction
+This project aims to create a text summarizer using modern machine learning techniques. The summarizer takes a block of text as input and produces a concise summary. The entire pipeline, from data preprocessing to model deployment, is covered.
+
+## Repository Setup
+Initialize a new GitHub repository.
+Clone the repository to your local machine.
+Set up a basic directory structure for the project.
+
+## Project Template Creation
+Create a project template with necessary directories and files.
+Ensure the template supports modular code development.
+
+## Project Setup and Requirements Installation
+Create a virtual environment.
+Install all necessary dependencies from requirements.txt.
+
+```
+pip install -r requirements.txt
+```
+## Logging, Utils, and Exceptions Modules
+Set up logging to track the project's progress and issues.
+Create utility functions to avoid code redundancy.
+Implement custom exception handling for better error management.
+
+## Components Modular Code Implementation
+Develop modular code for different components of the project:
+1. Data Ingestion
+2. Data Validation
+3. Data Transformation
+4. Model Training
+5. Model Evaluation
+
+## Training Pipeline
+Implement the training pipeline to train the text summarizer model.
+Save the trained model for later use.
+
+## MLOps Tools Implementation
+Integrate MLOps tools to automate and monitor the ML pipeline.
+Use tools like MLflow, DVC, or other relevant MLOps frameworks.
+
+## Prediction Pipeline and User App Creation
+Create a prediction pipeline to use the trained model for inference.
+Develop a simple web app to allow users to interact with the model and get text summaries.
+
+## Docker
+Create a Dockerfile to containerize the application.
+Build and test the Docker image locally.
+
+## GitHub Actions
+Set up GitHub Actions for CI/CD.
+Create workflows to automate testing, building, and deployment processes.
+
+## CI/CD Deployment on AWS Cloud
+Configure AWS services for deployment (e.g., EC2, S3, RDS).
+Deploy the application using CI/CD pipelines set up with GitHub Actions.
 
 ## Workflows
 
@@ -128,3 +202,10 @@ Email: ganeshmore5199@gmail.com
     AWS_ECR_LOGIN_URI = demo>>  566373416292.dkr.ecr.ap-south-1.amazonaws.com
 
     ECR_REPOSITORY_NAME = simple-app
+
+
+## Conclusion
+This project demonstrates a complete pipeline for building, training, and deploying a text summarization model using machine learning and modern software engineering practices. The use of MLOps tools and CI/CD pipelines ensures a robust and scalable solution.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
